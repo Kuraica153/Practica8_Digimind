@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_speaker_notes_24"
+        android:title="@string/nav_my_board"
+    />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/baseline_note_add_24"
+        android:title="@string/nav_new_reminder"
+    />
+
+</menu>

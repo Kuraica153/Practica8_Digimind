@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Digimind</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- Navbar -->
+    <string name="nav_my_board">My Board</string>
+    <string name="nav_new_reminder">New Reminder</string>
+    <!-- My Board -->
+    <!-- New Reminder -->
+    <string name="nr_label_one">What do you want to remember to do?</string>
+    <string name="nr_input_one_hint">E.g. Buy groceries</string>
+    <string name="nr_label_two">When do you want to do it?</string>
+    <string name="nr_label_three">At what time?</string>
+    <string name="nr_input_two_hint">Set time</string>
+    <string name="nr_button">Save</string>
+    <!-- day of week -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+</resources>
