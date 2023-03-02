@@ -2,45 +2,51 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="120dp"
+    android:padding="4dp"
     android:orientation="vertical"
 >
-
-        <TextView
-            android:id="@+id/reminder_cell_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Practice"
-            android:textColor="@color/colorAccent"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-light"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/mt_5"
-        />
-        <TextView
-            android:id="@+id/reminder_cell_frequency"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Everyday"
-            android:textColor="@color/colorAccent"
-            android:textSize="18sp"
-            android:fontFamily="sans-serif-light"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/mt_5"
-        />
-        <TextView
-            android:id="@+id/reminder_cell_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="17:00"
-            android:textColor="@color/colorAccent"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-light"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/mt_5"
-        />
-
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/reminder_background"
+        >
+                <TextView
+                        android:id="@+id/reminder_cell_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/mt_5"
+                />
+                <TextView
+                        android:id="@+id/reminder_cell_frequency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Everyday"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/mt_5"
+                />
+                <TextView
+                        android:id="@+id/reminder_cell_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17:00"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/mt_5"
+                />
+        </LinearLayout>
 
 </LinearLayout>

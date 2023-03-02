@@ -18,7 +18,7 @@
     />
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
     >
         <LinearLayout
             android:layout_width="match_parent"
@@ -189,9 +189,10 @@
                 android:inputType="time"
             />
             <Button
+                android:id="@+id/btn_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="center"
                 android:text="@string/nr_button"
                 android:textColor="@color/white"
