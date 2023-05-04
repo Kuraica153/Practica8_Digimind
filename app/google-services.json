@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "13802592333",
+    "project_id": "digimind-5fd42",
+    "storage_bucket": "digimind-5fd42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13802592333:android:a1dc7e1039669bc5c66404",
+        "android_client_info": {
+          "package_name": "kuraica.christopher.digimind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13802592333-vv5somhibe3b840d2tdd08m6jfb5cd4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kuraica.christopher.digimind",
+            "certificate_hash": "3b16274e859522b551e5142c0127e5480a7ddb2e"
+          }
+        },
+        {
+          "client_id": "13802592333-cksb3cj1pe7va4l7b81hoc2tn0k32los.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8N6aVnjpEDo0XQfrsO2f0vq1_I4W0cF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13802592333-cksb3cj1pe7va4l7b81hoc2tn0k32los.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
